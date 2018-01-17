@@ -1,12 +1,16 @@
 body{
     background: grey;
     margin:0;
+    height: 3000px;
    }
   
 #line{
     background: black;
     height: 80px;
     width: 100%;
+    position: sticky;
+    top:10px;
+    margin-top: 50px;
 }
 
 .box{
@@ -38,4 +42,10 @@ body{
     width: 100%;
     text-align: center;
     font-size: 17px;
+}
+
+@media (max-width:450px) {
+  .menuBox {
+    min-width: 200px /*The width is 100%, when the viewport is 800px or smaller*/
+  }
 }
