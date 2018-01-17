@@ -1,9 +1,15 @@
 document.write("fsd");
-console.log("dfgdfgdfgdfgdfg");
-$(".menuBox").click(function(){
 
-    $(".podMenu").css("display" , "block" );
-   
+
+$("#3").mouseover(function(){
+    
+    $("#3 .podMenu").css("display" , "block" ); 
+    
+
+});
+
+$(".menuBox").mouseout(function(){
+    $(".podMenu").css("display" , "none" ); 
 
 });
 

@@ -1,6 +1,7 @@
 body{
     background: grey;
     margin:0;
+    height: 3000px;
    }
   
 #line{
@@ -25,9 +26,10 @@ body{
     width: 25%;
     height: 50px;
    text-align: center;
-  
+  position: fixd;
     display: inline-block;
 }
+
 
 .podMenu{
      background: green;
@@ -35,7 +37,7 @@ body{
     height: 30px;
     margin-top:-4px;
     margin-bottom: 4px;
-    display: none;
+    
 }
 
 
